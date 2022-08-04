@@ -6,7 +6,7 @@ Available tools :
 
 * Basic loader before the website
 * The title of the website animated
-* An  auto copy system with display
+* A clickable ip system with visualisation
 * Scrollbar custom
 
 # Table Of Content
