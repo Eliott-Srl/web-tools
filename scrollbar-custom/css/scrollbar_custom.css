@@ -1,0 +1,140 @@
+:root {
+    --ff-body: "Heebo", sans-serif;
+    --ff-heading: "Oswald", sans-serif;
+  
+    --clr-primary-400: hsl(60 100% 50%);
+    --clr-neutral-900: hsl(0 0% 0%);
+    --clr-neutral-100: hsl(0 0% 100%);
+  
+    --fs-xl: clamp(3.5rem, 12vw + 1rem, 12rem);
+    --fs-600: 2rem;
+    --fs-400: 1rem;
+
+    --saturation-factor: 1;
+    --text-normal: #dcddde;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --background-primary: #36393f;
+  }
+  
+  @media (min-width: 40em) {
+    :root {
+      --fs-600: 3rem;
+      --fs-400: 1.125rem;
+    }
+  }  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+blockquote {
+  background: var(--background-primary);
+  margin: 0;
+  padding: 0;
+  color: var(--text-normal);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-spacer, 1em);
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-400);
+  line-height: 1.6;
+}
+
+h1,
+blockquote {
+  font-family: var(--ff-heading);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+blockquote {
+  font-size: var(--fs-600);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+a {
+  color: var(--text-link);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  display: grid;
+}
+
+article > *:not(img) {
+  padding: 0 5rem;
+}
+
+.lead {
+  font-size: var(--fs-600);
+  line-height: 1.3;
+  max-width: 35ch;
+}
+
+.article-body {
+  gap: 4rem;
+  max-width: 85ch;
+}
+
+.article-body > p:first-child::first-letter {
+  font-size: 5em;
+  float: left;
+  line-height: 1.1;
+  margin-right: 0.5rem;
+}
+
+.article-body > p:first-child::first-line {
+  font-weight: 523;
+}
+
+@media (min-width: 60em) {
+  article {
+    grid-template-columns: min(40%, 40rem) 1fr;
+  }
+
+  article > img {
+    grid-row: 1 / 4;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  article > *:not(img) {
+    grid-column: 1 / -1;
+  }
+}
