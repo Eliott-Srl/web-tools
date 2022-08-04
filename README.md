@@ -6,7 +6,7 @@ Available tools :
 
 * Basic loader before the website
 * The title of the website animated
-* An clikable ip system
+* An  auto copy system with display
 * Scrollbar custom
 
 # Table Of Content
@@ -23,17 +23,17 @@ Here are the little things to know about the different tools.
 
 ## Loader
 
-This is the explanation for the [Loader](https://github.com/eliott-srl/).
+This is the explanation for the [Loader](https://github.com/Eliott-Srl/web-tools/tree/main/loader).
 
 It is based on the [melonhtml5](https://melonhtml5.com/demo/royal_preloader/) system. I've just simplified the css and give you a tutorial to use it.
 
 ### Dependencies
 
-You will need [jquery](https://jquery.com/download/) for this project or just download [this jquery.min.js]() file, it will work properly.
+You will need [jquery](https://jquery.com/download/) for this project or just download this [jquery.min.js](https://github.com/Eliott-Srl/web-tools/tree/main/loader/js/jquery.min.js) file, it will work properly.
 
 Download these two files:
-* [royal_preloader.min.js]()
-* [royal_preloader.css]()
+* [royal_preloader.min.js](https://github.com/Eliott-Srl/web-tools/tree/main/loader/js/royal_preloader.min.js)
+* [royal_preloader.css](https://github.com/Eliott-Srl/web-tools/tree/main/loader/css/royal_preloader.css)
 
 And put them respectively in a ```js``` and ```css``` folder.
 
@@ -137,13 +137,13 @@ Royal_Preloader.config({
 
 ## Animated Title
 
-This is the explanation for the [Animated Title](https://github.com/eliott-srl/).
+This is the explanation for the [Animated Title](https://github.com/Eliott-Srl/web-tools/blob/main/animated-title/).
 
 There is nothing very magic here, just a basic js script, but beautiful
 
 ### Dependencies
 
-You need [title_animation.js](https://github.com/eliott-srl/). When you have downloaded it, put it in a ```js``` folder.
+You need [title_animation.js](https://github.com/Eliott-Srl/web-tools/blob/main/animated-title/js/title_animation.js). When you have downloaded it, put it in a ```js``` folder.
 
 ### Getting started
 
@@ -168,15 +168,15 @@ That's it lol
 
 ## Clickable Ip
 
-This is the explanation for the [Clickable Ip](https://github.com/eliott-srl/).
+This is the explanation for the [Clickable Ip](https://github.com/Eliott-Srl/web-tools/tree/main/clickable-ip).
 
 This system is inspired by [funcraft](https://www.funcraft.net/).  it's a system that allows to have something nice to get the ip of a minecraft server while being sober.
 
 ### Dependencies
 
 Download these two files:
-* [clickable_ip.js](https://github.com/eliott-srl/) 
-* [clickable_ip.css](https://github.com/eliott-srl/)
+* [clickable_ip.js](https://github.com/Eliott-Srl/web-tools/blob/main/clickable-ip/js/clickable_ip.js) 
+* [clickable_ip.css](https://github.com/Eliott-Srl/web-tools/blob/main/clickable-ip/css/clickable_ip.css)
 
 And put them respectively in a ```js``` and ```css``` folder.
 
@@ -203,13 +203,13 @@ You can modify ```your-ip.net``` and create a nice website for your nice minecra
 
 ## Scrollbar Custom
 
-This is the explanation for the [Scrollbar Custom](https://github.com/eliott-srl/).
+This is the explanation for the [Scrollbar Custom](https://github.com/Eliott-Srl/web-tools/tree/main/scrollbar-custom).
 
 This tool is my favorite I use it really often. It allows you to have a scrollbar cutom whatever the browser except Internet Explorer obviously lol.
 
 ### Dependencies
 
-Download this file : [scrollbar_custom.css](https://github.com/eliott-srl/)
+Download this file : [scrollbar_custom.css](https://github.com/Eliott-Srl/web-tools/tree/main/scrollbar-custom/css/scrollbar_custom.css)
 
 And put it in a ```css``` folder.
 
